@@ -24,3 +24,11 @@ So I wrote the Python scripts below.
 - note that it simply removes any path information from the attachment filename string, on the basis that Obsidian knows where to look for attachments based on the configuration under Settings > Files & Links
 - If you have multiple attachments with the same name, then this script will likely cause problems
 - the script is set to create backups (.bak) of any files it changes, so you can always revert if needed.
+
+## How to run these scripts
+If you're on a Mac then you have python pre-installed:
+- open terminal
+- cd into the folder where the scripts are, ie `cd /Users/myname/obsidian`
+- to run the script it's `python3 prepend-metadata.py` or `python3 prepend-metadata.py`
+
+If you don't have python installed then it's not too hard to do but beyond the scope of this readme.
